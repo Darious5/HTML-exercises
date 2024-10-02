@@ -1,0 +1,13 @@
+h1{color:#0041d8;font-family: sans-serif;font-weight: bolder;font-size: 36px;}
+
+h2{color: #2c6acf;font-family: sans-serif;font-weight: bolder;font-size: 30px;}
+
+fieldset{border-color: #0041d8;border-style:double;}
+
+legend{color: #00D8B1;font-size: 26px;font-family: sans-serif;font-weight: bold;}
+
+label{color:#00D85F;font-size: 16px;font-family: sans-serif;font-weight: bold;}
+
+input{color: #015325;font-family: sans-serif;font-weight: 500;}
+
+body{background-color:hwb(146 89% 0%);}

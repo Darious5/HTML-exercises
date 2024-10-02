@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="cssform.css">
+    <link rel="icon" href="favicon.jpg">
+    <title>form</title>
+</head>
+<body>
+    <h1>Library</h1>
+    <h2>To do the delivery, fill this form</h2>
+    <fieldset>
+        <legend>Personal data</legend>
+        <form method=post action="mailto:dgonbla1409@ieszaidinvergeles.org">
+            <label>Name</label> <input type="text" name="name" pattern="[A-Za-zñáéíóúüÁÉÍÓÚ ]+"/><br><br>
+            <label>Surname</label> <input type="text" name="surname" pattern="[A-Za-zñáéíóúüÁÉÍÓÚ ]+"/><br><br>
+            <label>Domicile</label> <input type="text" name="domicile"/><br><br>
+            <label>Location</label> <input type="text" name="Location"/><br><br>
+            <label>Postal code</label> <input type="text" name="postal code"/><br><br>
+            <label>Telephone</label> <input type="text" name="telephone" pattern="\d{9}"/><br><br>
+            <label>DNI</label> <input type="text" name="DNI" pattern="\d{8}[A-Z]"/><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Choose delivery option</legend>
+        <input type="radio" name="send" value="domicile"/> <label>Pickup in local</label><br>
+        <input type="radio"  name="send" value="email"/> <label>Send to domicile</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Do you want us to send you our offers?</legend>
+        <input type="checkbox" name="send to domicile" value="domicile"/> <label>Send to domicile</label><br>
+        <input type="checkbox" name="sent to email" value="email"/> <label>Send to email</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>how big is your packet?</legend>
+        
+    </fieldset>
+        <br><input type="submit"/>
+    </form>
+</body>
+</html>
